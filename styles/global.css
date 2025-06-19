@@ -26,9 +26,8 @@
 
     --fs-lg: 1.5rem;
     --fs-base: 0.875rem;
-    --fs-sm: 0.75rem;
+    --fs-sm: 0.875rem;
 
-    --py-base: 1rem;
     --py-sm: 1rem;
     --py-md: 1rem;
     --py-lg: 2rem;
@@ -65,4 +64,18 @@ img{
 a{
     text-decoration: none;
     color: var(--text-color-secondary);
+}
+
+@media (width >=80em){
+    :root{
+        --fs-lg: 2rem;
+        --fs-base:0.875rem;
+        --fs-sm: 1rem;
+
+        --py-sm: 1.25rem;
+        --py-md: 1.5rem;
+        --py-lg: 2rem;
+
+        --px-base: 2rem;
+    }
 }
