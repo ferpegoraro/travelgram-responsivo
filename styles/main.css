@@ -1,0 +1,11 @@
+@media (width >= 80em) {
+    main {
+        img{
+            width: 286px;
+            height: 286px;
+        }
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 1.25rem;
+    }
+}

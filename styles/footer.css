@@ -1,0 +1,39 @@
+footer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+    span {
+        color: var(--text-color-secondary);
+        font: var(--fw-regular) var(--fs-sm)/1.5 var(--ff-poppins);
+    }
+    
+    div:nth-child(1) {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    div:nth-child(2) {
+        display: flex;
+        gap: 1rem;
+    }
+}
+
+@media (width >= 80em) {
+    footer {
+        display: flex;
+        justify-content: space-between;
+        
+        div:nth-child(1) {
+            width: auto;
+            justify-content: flex-start;
+        }
+        
+        div:nth-child(2) {
+            display: flex;
+            gap: 1rem;
+        }
+    }
+}
